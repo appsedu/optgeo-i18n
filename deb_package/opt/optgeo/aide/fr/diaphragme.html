@@ -1,0 +1,507 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Diaphragme</title>
+</head>
+<body style="background-image: url(optgeo.gif);">
+<font color="#000099"><u><b><big><big>Diaphragme &agrave; iris</big></big></b></u></font>
+<hr size="2" width="100%"><img src="diaphragmegrand.gif" title="" alt=""
+ style="width: 104px; height: 256px;">&nbsp; <br>
+<hr size="2" width="100%"><br>
+<font color="#cc0000"><u><b><big>D&eacute;finition</big></b></u></font><br>
+<br>
+Il est d&eacute;fini &agrave; la souris par les points C (centre du
+diaphragme), 1 (bord int&eacute;rieur) et 2 (bord ext&eacute;rieur). Le
+trou central est &eacute;videmment transparent, le reste du diaphragme
+est aborbant sur ses deux faces.<br>
+<br>
+Le diaphragme peut &ecirc;tre ajout&eacute;:<br>
+- en cliquant sur le bouton de la barre d'outil ayant la forme
+ci-dessus, puis en faisant un clic simple pour saisir le centre, puis
+en
+faisant un clic simple pour saisir le premier point, puis en faisant un
+clic simple pour saisir le second (ne pas maintenir le bouton de la
+souris enfonc&eacute; entre les deux points)<br>
+OU<br>
+- menu "Ajouter" puis "Syst&egrave;me optique id&eacute;al" puis
+"Diaphragme".<br>
+<hr size="2" width="100%"><br>
+<font color="#33ff33"><u><b><big>Options</big></b></u></font><br>
+<br>
+On peut imposer <br>
+-l'&eacute;paisseur et la couleur du trait repr&eacute;sentant
+l'&eacute;cran &agrave; l'&eacute;cran<br>
+<br>
+Ces propri&eacute;t&eacute;s peuvent &ecirc;tre rendues accessibles:<br>
+- &agrave; la construction de l'&eacute;cran si on passe par le menu
+"Ajouter"<br>
+- &agrave; tout instant en cliquant sur le bouton
+"Propri&eacute;t&eacute;s" de la barre d'outil, puis en cliquant sur un
+des cercles bleus qui apparaissent sur l'&eacute;l&eacute;ment dont on
+veut obtenir les propri&eacute;t&eacute;s; ne pas oublier &agrave; la
+fin de cliquer sur le bouton "Fin prop." de la barre d'outil pour
+quitter le mode propri&eacute;t&eacute;s.<br>
+<hr size="2" width="100%"> <u><b><big>Divers</big></b></u><br>
+<br>
+Quand on est en mode d&eacute;placement, on peut:<br>
+- translater le diaphragme<br>
+- changer son orientation et sa taille ext&eacute;rieure en utilisant
+les points extr&egrave;mes<br>
+- changer son rayon int&eacute;rieur (ouverture du diaphragme) en
+utilisant les points int&eacute;rieurs<br>
+<hr size="2" width="100%"><a href="Optgeo.html">Retour &agrave; la page
+&nbsp;d'accueil</a><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<meta http-equiv="CONTENT-TYPE"
+ content="text/html; charset=windows-1252">
+<title>Aide de Optg&eacute;o</title>
+<meta name="GENERATOR" content="OpenOffice.org 1.1.0  (Win32)">
+<meta name="CREATED" content="20031122;10343778">
+<meta name="CHANGED" content="20031122;10461054">
+<p style="margin-bottom: 0cm;" align="center"><a name="hautpage"></a><font
+ color="#3333ff"><font size="3"><u><b>OptG&eacute;o,
+version 1.10</b></u></font></font></p>
+<p align="center"><font color="#ff0000"><u><b>Logiciel de simulation
+d'optique g&eacute;om&eacute;trique &agrave; deux dimensions</b></u></font></p>
+<hr size="5">
+<p><b><u><font size="4">I Fonctionnement du logiciel</font></u></b> </p>
+<p><a href="#presentation">Pr&eacute;sentation</a> </p>
+<p><a href="#souris">Remarque importante: utilisation de la souris</a>
+</p>
+<p>Comment... </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#ajouter">...ajouter un&nbsp; &eacute;l&eacute;ment ou une
+source</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+ href="#deplacer">
+...d&eacute;placer un &eacute;l&eacute;ment ou une source</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#modifier">...modifier un &eacute;l&eacute;ment ou&nbsp; une
+source</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+ href="#supprimer">
+...supprimer un &eacute;l&eacute;ment ou une source</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+ href="#dupliquer">
+...dupliquer un &eacute;l&eacute;ment ou une source</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#Annuler">...annuler une op&eacute;ration en cours</a> </p>
+<p style="margin-bottom: 0cm;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#grouper">...grouper des &eacute;l&eacute;ments</a> </p>
+<p style="margin-bottom: 0cm;"><br>
+<a href="#options">Options</a> </p>
+<p style="margin-bottom: 0cm;"><br>
+</p>
+<p style="margin-bottom: 0cm;"><a href="#preferences">Pr&eacute;f&eacute;rences
+</a>(menu Fichier)</p>
+<hr size="5">
+<p><b><u><font size="4">II Propri&eacute;t&eacute;s des divers
+&eacute;l&eacute;ments
+optiques</font></u></b> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b><u>1) Les sources lumineuses</u></b> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="rayon.html">Rayon unique</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="sponct.html">Source ponctuelle</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+ href="op.html">
+Onde plane</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b><u>2) Miroirs</u></b> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="miroirplan.html">Miroir plan</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="miroirspheriqueparaxial.html">Miroir sph&eacute;rique
+convexe id&eacute;al</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="miroirspheriqueparaxial.html">Miroir sph&eacute;rique
+concave id&eacute;al</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="miroirspheriquereel.html">Miroir sph&eacute;rique convexe
+r&eacute;el</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="miroirspheriquereel.html">Miroir sph&eacute;rique concave
+r&eacute;el</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+ href="miroirconique.html">
+Miroir elliptique; parabolique; hyperbolique</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="lsr.html">Lame semi-r&eacute;fl&eacute;chissante</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>
+<b>3) R&eacute;gions r&eacute;fractantes</b></u> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="lmc.html">Lentille mince convergente id&eacute;ale</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="lmc.html">Lentille mince divergente id&eacute;ale</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="lentille.html">Lentille quelconque</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="sphere.html">Sph&egrave;re r&eacute;fractante</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+ href="polyhedre.html">
+Polyg&ocirc;ne r&eacute;fractant (dont: prisme, lame, etc...)</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="polysphere.html">Polycercle r&eacute;fractant</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>
+<b>4) Surfaces absorbantes ou transparentes</b></u> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="ecran.html">Ecran</a> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="diaphragme.html">Diaphragme &agrave; iris</a> </p>
+<p style="margin-bottom: 0cm;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="oeil.html">Oeil stylis&eacute;</a> </p>
+<hr size="5">
+<p style="margin-bottom: 0cm;"><a name="presentation"></a><b><u><font
+ size="4"><font color="#330099">Pr&eacute;sentation</font></font></u></b>
+<br>
+&nbsp;Apr&egrave;s avoir choisi les dimensions de son espace de
+travail, on d&eacute;pose sur celui ci des miroirs (plans,
+sph&eacute;riques, paraboliques, hyperboliques, elliptiques), des
+lentilles (minces ou &eacute;paisses),&nbsp; des volumes
+r&eacute;fractants
+(sph&egrave;res, prismes, lames, polyh&egrave;dres), des
+&eacute;l&eacute;ments
+divers (&eacute;crans, diaphragmes, lames
+semi-r&eacute;fl&eacute;chissantes),
+ainsi que des sources (ponctuelles r&eacute;elles, ponctuelles
+virtuelles, ondes planes, rayons uniques). Optg&eacute;o trace les
+rayons lumineux., en utilisant les lois de Descartes. On peut aussi,
+dans certains cas, tracer des surfaces d'onde. <br>
+Le r&eacute;pertoire
+"exemples" contient un certain nombre de simulations toutes
+faites. </p>
+<p style="margin-bottom: 0cm;" align="right"><a href="#hautpage">Haut
+de
+la page</a></p>
+<p style="margin-bottom: 0cm;"><br>
+&nbsp; </p>
+<hr size="5">
+<p><a name="souris"></a><b><u><font size="4"><font color="#330099">Remarque
+importante: utilisaton de la souris</font></font></u></b> <br>
+&nbsp;Un
+&eacute;l&eacute;ment optique est rep&eacute;r&eacute; par au moins 2
+points. Lors de la saisie de l'&eacute;l&eacute;ment &agrave; la
+souris, il ne faut pas maintenir le bouton de la souris enfonc&eacute;
+entre 2 points; pour un miroir plan par exemple, on fait un clic
+simple &agrave; l'endroit o&ugrave; doit se situer le 1er bord du
+miroir, on rel&acirc;che le bouton, on va &agrave; l'endroit o&ugrave;
+doit se situer le 2&egrave;me bord, on clique et on rel&acirc;che. </p>
+<p style="margin-bottom: 0cm;"><b><u>Remarque:</u></b> pour placer 2
+points cons&eacute;cutifs sur une m&ecirc;me horizontale, faire un
+clic simple pour le premier point, puis enfoncer la touche "Ctrl"
+du clavier, la maintenir enfonc&eacute;e, faire le clic simple pour
+le second point, puis rel&acirc;cher la touche "Ctrl". Pour
+les placer sur une m&ecirc;me verticale, m&ecirc;me proc&eacute;dure
+avec la touche "Alt". </p>
+<p style="margin-bottom: 0cm;" align="right"><a href="#hautpage">Haut
+de
+la page</a></p>
+<p><br>
+&nbsp; </p>
+<p style="margin-bottom: 0cm;"><br>
+</p>
+<hr size="5">
+<p><a name="ajouter"></a><b><u><font size="4"><font color="#330099">Ajouter
+un&nbsp; &eacute;l&eacute;ment ou une source</font></font></u></b>
+<br>
+&nbsp;Pour chaque &eacute;l&eacute;ment, il existe 2 m&eacute;thodes
+d'ajout: &agrave; la souris, et au clavier. La saisie &agrave; la
+souris permet une saisie rapide, mais certaines
+propri&eacute;t&eacute;s
+de l'&eacute;l&eacute;ment d&eacute;pos&eacute; ont des valeur
+standarts. La saisie au clavier est plus longue mais permet de
+r&eacute;gler
+tous les param&egrave;tres. On peut aussi utiliser les 2
+m&eacute;thodes:
+saisie rapide &agrave; la souris, puis <a href="#modifier">modification
+des propri&eacute;t&eacute;s au clavier</a>. </p>
+<p>&nbsp;&nbsp;&nbsp; Pour saisir &agrave; la souris: il suffit de
+cliquer sur l'ic&ocirc;ne de l'&eacute;l&eacute;ment dans la barre
+d'outil, puis de saisir les diff&eacute;rentes points: voir <a
+ href="#souris">remarque
+importante</a> sur l'utilisation de la souris. </p>
+<p>&nbsp;&nbsp;&nbsp; Pour saisir au clavier, il faut passer par le
+menu ajouter. </p>
+<p style="margin-bottom: 0cm;"><br>
+Remarque: obtention de <b>miroirs
+trou&eacute;s</b>: il peut &ecirc;tre utile dans certains cas de
+trouer les miroirs sph&eacute;riques en leur centre (combinaisons
+optiques de certains t&eacute;l&eacute;scopes par exemple); pour
+cela, commencer par ajouter un miroir normal; puis <a href="#modifier">modifier</a>
+le miroir, et choisir dans la boite des propri&eacute;t&eacute;s du
+miroir de le trouer et la taille du trou. </p>
+<p style="margin-bottom: 0cm;" align="right"><a href="#hautpage">Haut
+de
+la page</a></p>
+<p style="margin-bottom: 0cm;"><br>
+&nbsp; </p>
+<hr size="5">
+<p style="margin-bottom: 0cm;"><a name="deplacer"></a><b><u><font
+ size="4"><font color="#330099">D&eacute;placer
+un &eacute;l&eacute;ment ou une source</font></font></u></b>
+<br>
+&nbsp;Cliquez sur le bouton "<font color="#cc0000">D&eacute;placer</font>"
+dans la barre d'outil, ou passer par le menu "Edition" puis
+"D&eacute;placement d'un &eacute;l&eacute;ment" . Il
+appara&icirc;t un certain nombre de cercles bleus, de croix vertes,
+et &eacute;ventuellement de croix cyan sur la simulation, autour des
+points caract&eacute;ristiques des &eacute;l&eacute;ments
+pr&eacute;sents.
+Lorsqu'on passe le curseur de la souris au dessus de ces points, le
+curseur change de forme, indiquant les op&eacute;rations possibles.
+Il est ainsi possible de translater un &eacute;l&eacute;ment (croix
+verte), de faire bouger un point sans faire bouger les autres
+(cercles bleus) (le curseur indique "rotation", bien que le
+terme soit impropre, le d&eacute;placement permettant aussi une
+dilatation ou r&eacute;traction de l'&eacute;l&eacute;ment), de
+d&eacute;placer un centre de courbure ou un foyer (croix cyan). <br>
+La
+m&eacute;thode est la suivante: lorsque le curseur a la forme
+d&eacute;sir&eacute;,
+on clique et on rel&acirc;che; on d&eacute;place la souris
+jusqu'&agrave;
+destination, on clique et on rel&acirc;che; l'&eacute;l&eacute;ment
+est redessin&eacute; "en direct" au fur et &agrave; mesure
+du d&eacute;placement. </p>
+<p style="margin-bottom: 0cm;"><br>
+</p>
+<p style="margin-bottom: 0cm;"><u>D&eacute;placement vertical:
+</u><span style="text-decoration: none;">enfoncer la touche
+&laquo;&nbsp;Alt&nbsp;&raquo;
+et la maintenir enfonc&eacute;e; cliquer sur le point &agrave;
+d&eacute;placer; l'amener &agrave; la position voulue, cliquer pour
+le poser, et rel&acirc;cher enfin la touche
+&laquo;&nbsp;Alt&nbsp;&raquo;.</span></p>
+<p style="margin-bottom: 0cm;"><u>D&eacute;placement horizontal:
+</u><span style="text-decoration: none;">enfoncer la touche
+&laquo;&nbsp;Ctrl&nbsp;&raquo;
+et la maintenir enfonc&eacute;e; cliquer sur le point &agrave;
+d&eacute;placer; l'amener &agrave; la position voulue, cliquer pour
+le poser, et rel&acirc;cher enfin la touche
+&laquo;&nbsp;Ctrl&nbsp;&raquo;.</span></p>
+<p style="margin-bottom: 0cm;"><br>
+<b><font size="4">Important:</font></b>
+une fois les modification effectu&eacute;es, il faut cliquer sur le
+bouton "<font color="#cc0000">Fin D&eacute;pl</font>." de
+la barre d'outil pour revenir en mode normal. </p>
+<p style="margin-bottom: 0cm;" align="right"><a href="#hautpage">Haut
+de
+la page</a></p>
+<p style="margin-bottom: 0cm;"><br>
+&nbsp; </p>
+<hr size="5">
+<p style="margin-bottom: 0cm;"><a name="modifier"></a><b><u><font
+ size="4"><font color="#330099">Modifier
+un &eacute;l&eacute;ment ou&nbsp; une source</font></font></u></b>
+<br>
+&nbsp;Cliquez sur le bouton "<font color="#cc0000">Propri&eacute;t&eacute;s</font>"
+dans la barre d'outil, ou passer par le menu "Edition" puis
+"Propri&eacute;t&eacute;s d'un &eacute;l&eacute;ment" . Il
+appara&icirc;t un certain nombre de cercles bleus sur la simulation,
+autour des points caract&eacute;ristiques des &eacute;l&eacute;ments
+pr&eacute;sents. Lorsqu'on passe le curseur de la souris au dessus de
+ces points, le curseur change de forme, indiquant
+"Propri&eacute;t&eacute;s:
+clic". Un clic simple&nbsp; lance alors l'ouverture de la
+fen&ecirc;tre de propri&eacute;t&eacute;s de l'&eacute;l&eacute;ment
+consid&eacute;r&eacute;. (c'est la m&ecirc;me fen&ecirc;tre que lors
+d'un ajout&nbsp; d'&eacute;l&eacute;ment par le menu "Ajout").&nbsp;
+On valide les modifications dans la fen&ecirc;tre par le bouton "OK"
+ou on abandonne. <br>
+<b><font size="4">Important:</font></b> une fois
+les modification effectu&eacute;es, il faut cliquer sur le bouton
+"<font color="#cc0000">Fin prop.</font>" de la barre
+d'outil pour revenir en mode normal. </p>
+<p style="margin-bottom: 0cm;" align="right"><a href="#hautpage">Haut
+de
+la page</a></p>
+<p style="margin-bottom: 0cm;"><br>
+&nbsp; </p>
+<hr size="5">
+<p><a name="supprimer"></a><b><u><font size="4"><font color="#330099">Supprimer
+un &eacute;l&eacute;ment ou une source</font></font></u></b>
+<br>
+&nbsp;Cliquez sur le bouton "<font color="#cc0000">Supprimer</font>"
+dans la barre d'outil, ou passer par le menu "Edition" puis
+"Suppression d'un &eacute;l&eacute;ment" . Il apparait un
+certain nombre de cercles rouges sur la simulation, autour des points
+caract&eacute;ristiques des &eacute;l&eacute;ments pr&eacute;sents.
+Lorsqu'on passe le curseur de la souris au dessus de ces points, le
+curseur change de forme, prenant la forme d'un marteau. Un clic
+simple permet, apr&egrave;s demande de confirmation, de supprimer
+l'&eacute;l&eacute;ment correspondant. <br>
+Une fois la suppression
+effectu&eacute;e, le logiciel quitte automatiquement le mode
+suppression. Si en fin de compte on ne veut rien supprimer, il faut
+cliquer sur le bouton "<font color="#cc0000">Fin suppr.</font>"
+dans la barre d'outil. </p>
+<p style="margin-bottom: 0cm;">Remarque : si on veut repartir d'une
+simulation vierge, passer par le menu "Fichier", puis
+"Nouvelle simulation". </p>
+<p style="margin-bottom: 0cm;" align="right"><a href="#hautpage">Haut
+de
+la page</a> </p>
+<hr size="5">
+<p align="left"><a name="grouper"></a>&nbsp; <br>
+<b><u><font size="4"><font color="#330099">Grouper
+des &eacute;l&eacute;ments</font></font></u></b> </p>
+<p align="left">On peut grouper des &eacute;l&eacute;ments afin de
+pouvoir les translater ensemble. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Premi&eacute;re m&eacute;thode: cliquer sur le bouton "<font
+ color="#cc0000">Gr</font>."
+de la barre d'outil; sur chacun des &eacute;l&eacute;ments
+pr&eacute;sents
+dans la simulation apara&icirc;t une croix violette; il suffit de
+cliquer sur cette croix pour ajouter l'&eacute;l&eacute;ment au
+groupe; une bo&icirc;te de dialogue confirme l'ajout de
+l'&eacute;l&eacute;ment;
+une fois tous les &eacute;l&eacute;ments souhait&eacute;s
+ajout&eacute;s,
+cliquer sur le bouton "<font color="#cc0000">Fin</font>".
+Une bo&icirc;te de diaogue confirme la cr&eacute;ation du groupe.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Deuxi&egrave;me m&eacute;thode:
+menu "Edition" puis "Grouper des &eacute;l&eacute;ments"
+puis "Tous les &eacute;l&eacute;ments" ou "El&eacute;ments
+&agrave; choisir". Dans le second cas, la saisie des
+&eacute;l&eacute;ments
+&agrave; ajouter se fait comme dans la premi&egrave;re m&eacute;thode.
+Dans le premier cas, un groupe est cr&eacute;&eacute; qui contient
+tous les &eacute;l&eacute;ments pr&eacute;sents. </p>
+<p align="left">D&eacute;placement d'un groupe: cliquer sur la bouton
+"D&eacute;placer"; le groupe est repr&eacute;sent&eacute;
+par une croix verte et des lettres "Gr"; on peut alors le
+d&eacute;placer comme pour un &eacute;l&eacute;ment classique. Ce
+point est l'isobarycentre des points caract&eacute;ristiques des
+&eacute;l&eacute;ments constitutifs du groupe. </p>
+<p style="margin-bottom: 0cm;" align="left">Destruction d'un groupe:
+comme pour les autres &eacute;l&eacute;ments. <br>
+&nbsp; </p>
+<p style="margin-bottom: 0cm;" align="right"><a href="#hautpage">Haut
+de
+la page</a></p>
+<hr size="5">
+<p><a name="dupliquer"></a>&nbsp; <br>
+<b><u><font size="4"><font color="#330099">Dupliquer
+un &eacute;l&eacute;ment ou une source</font></font></u></b>
+<br>
+&nbsp;Cliquez sur le bouton "<font color="#cc0000">Dupliquer</font>"
+dans la barre d'outil, ou passer par le menu "Edition" puis
+"Dupliquer un &eacute;l&eacute;ment" . Il apparait un
+certain nombre de cercles bleus sur la simulation, autour des points
+caract&eacute;ristiques des &eacute;l&eacute;ments pr&eacute;sents.
+Lorsqu'on passe le curseur de la souris au dessus de ces points, le
+curseur change de forme. Un clic simple permet alors de dupliquer
+l'&eacute;l&eacute;ment correspondant. <br>
+Une fois la duplication
+effectu&eacute;e, le logiciel quitte automatiquement le mode
+duplication. Si en fin de compte on ne veut rien dupliquer, il faut
+cliquer sur le bouton "<font color="#cc0000">Fin dupl.</font>"
+dans la barre d'outil. <br>
+&nbsp; <br>
+&nbsp; </p>
+<p><br>
+<a href="../../E:/optgeo/aide/Optgeo.html#hautpage">Haut de la
+page</a> </p>
+<hr size="5">
+<p><a name="Annuler"></a><b><u><font size="4"><font color="#330099">Annuler
+une op&eacute;ration en cours</font></font></u></b> </p>
+<p>Pour annuler l'op&eacute;ration en cours, appuyer sur la touche
+<font color="#66ff99">'Esc' </font>du clavier alors que le curseur
+est au-dessus de l'espace de travail. </p>
+<p style="margin-bottom: 0cm;"><a href="#hautpage">Haut de la page</a>
+</p>
+<hr size="5">
+<p><a name="options"></a><b><u><font size="4"><font color="#330099">Options</font></font></u></b>
+</p>
+<p><font color="#33ff33">Grille</font> </p>
+<p>On peut utiliser une grille pour le rep&eacute;rage des points
+et/ou leurs saisie. Pour cela, passer par le menu "Options".
+<br>
+Si "Attraction de la grille" est coch&eacute;, lors de
+la saisie d'un point, c'est le point le plus proche appartenant
+&agrave;
+la grille qui est valid&eacute;. Ceci est vrai lors de l'ajout
+d'&eacute;l&eacute;ments et lors de leur translation. <br>
+Dans
+certaines situations, l'attraction n'est pas appliqu&eacute;e; c'est
+le cas par exemple lors de la saisie du foyer d'une lentille: les
+bords de la lentille &eacute;tant d&eacute;j&agrave; choisis, l'axe
+focal est impos&eacute;, et le foyer ne peut pas &ecirc;tre
+plac&eacute;
+forc&eacute;ment sur un point de la grille. <br>
+L'affichage de la
+grille peut &ecirc;tre activ&eacute; directement par la case &agrave;
+cocher "Afficher la grille" dans la barre d'outil. </p>
+<p><font color="#33ff33">Normales</font> </p>
+<p>On peut demander &agrave; ce que les normales aux dioptres et aux
+miroirs soient affich&eacute;es. Pour cela, passer par le menu
+"Options" puis "Afficher les normales", ou par la
+case &agrave; cocher "Afficher les normales" dans la barre
+d'outil. Un param&eacute;trage plus fin du trac&eacute; peut &ecirc;tre
+obtenu par le menu "Options", puis "Options des
+normales". <br>
+On peut aussi demander &agrave; ce que les angles
+d'incidence et de r&eacute;fraction soient affich&eacute;s, soit par
+le menu "Options" puis "Afficher les angles",
+soit par la case &agrave; cocher "Afficher les angles
+d'incidence et de r&eacute;fraction" dans la barre d'outil.
+<br>
+Remarques: 1) l'option affichage des angles impose l'option
+affichage des normales <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2) les valeurs des angles sont donn&eacute;es en &deg;; le nombre de
+d&eacute;cimales affich&eacute;es peut &ecirc;tre r&eacute;gl&eacute;
+en passant par&nbsp; le menu "Options" puis "Options
+des normales". <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3) pour les &eacute;l&eacute;ment optiques&nbsp;
+"id&eacute;alis&eacute;s"
+(lentilles minces, miroirs sph&eacute;riques paraxiaux), les normales
+et angles ne sont pas trac&eacute;s, puisque la repr&eacute;sentation
+symbolique des ces &eacute;l&eacute;ments en gomme la forme
+r&eacute;elle.
+</p>
+<p><font color="#66ff99">Association des fichiers .opt avec OptGeo</font>
+</p>
+<p style="margin-bottom: 0cm;">Si on choisit d'associer les fichiers
+de simulation .opt avec OptGeo, un double-clic sur un fichier .opt
+suffira pour l'ouvrir. L'installateur ne force pas ce choix,&nbsp;
+vous &ecirc;tes libre d'utiliser ou pas cette possibilit&eacute;. <br>
+&nbsp;</p>
+<p><font color="#66ff99">Couleur de fond</font></p>
+<p style="margin-bottom: 0cm;">Permet de changer la couleur de fond de
+la simulation.</p>
+<p style="margin-bottom: 0cm;" align="right"><a href="#hautpage">Haut
+de
+la page</a></p>
+<hr size="5">
+<p><a name="preferences"></a><b><u><font size="4"><font color="#330099">Pr&eacute;f&eacute;rences</font></font></u></b><br>
+&nbsp;
+<br>
+&nbsp; Permet de choisir les attributs par d&eacute;faut des
+&eacute;l&eacute;ments &agrave; la cr&eacute;ation (couleur,
+&eacute;paisseur, police...).<br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp;
+<br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp;
+<br>
+&nbsp; <br>
+&nbsp; </p>
+</body>
+</html>

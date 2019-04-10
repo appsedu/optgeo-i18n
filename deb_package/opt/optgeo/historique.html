@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=windows-1252">
+  <meta name="GENERATOR" content="Mozilla/4.75 [fr] (Windows NT 5.0; U) [Netscape]">
+  <meta name="AUTHOR" content="Jean-Marie Biansan">
+  <meta name="CREATED" content="20031122;11265227">
+  <meta name="CHANGED" content="20031122;11392391">
+  <meta name="KEYWORDS" content="biansan,logiciel, software, libre, free, gratuit, simulation, optique, geometrique, acquisition, fluke, tacussel, metrix, diffusion, optgeo, maple, orbitale"><title>Historique</title>
+  
+  <style>
+	<!--
+		P { color: #000000 }
+	-->
+	</style></head>
+<body background="optgeo.gif" dir="ltr" lang="fr-FR" text="#000000">
+<font color="#3333ff"><u><b><font size="+3">Optgeo</font></b><font size="+2">:</font></u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<u><font size="+2"><a href="#histo">historique des versions</a></font></u></font>
+<br>
+<font color="#3333ff"><font size="+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<u><a href="#compa">compatibilité des fichiers de simulation</a></u></font></font>
+<br>
+<font color="#3333ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<u><font size="+2"><a href="#desin">désinstallation des versions
+Windows</a></font></u></font><br>
+<font color="#3333ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<u><font size="+2"><a href="#reseau">installation réseau Windows</a></font></u></font><br>
+<hr size="8">
+<hr size="8">
+<p style="margin-bottom: 0cm;"><a name="histo"></a><u><font color="#ff0000"><font size="+1">Historique
+des versions</font></font></u>
+</p>
+<p><span style="text-decoration: underline; font-weight: bold;"></span></p><p><span style="text-decoration: underline; font-weight: bold;">Version 2.25 du 05/01/2018</span></p>- Modification du code pour compilation avec Lazarus 1.8<br>- Ajout de la possibilité de mettre une image png ou jpg en image de fond à la place d'une couleur unie<p><span style="text-decoration: underline; font-weight: bold;">Version 2.24 du 11/07/2016</span>&nbsp;</p>-
+Correction d'un bug lorsqu'une sphère réfractante était trop proche d'un autre objet réfractant<br>- Modification de la mise à l'échelle des polices pour éviter des polices trop petites à haute résolution<br>- Modification du code pour corriger un pbe de compilation sous Lazarus 1.6<p><span style="text-decoration: underline; font-weight: bold;">Version 2.23 du 24/10/2015</span>&nbsp;</p>-
+Correction d'un bug qui empéchait le bon fonctionnement lorsque le dossier d'installation contenait des caractères accentués<p><span style="text-decoration: underline; font-weight: bold;">Version 2.22 du&nbsp;20/08/2015</span>&nbsp;</p><p>-
+Correction d'un bug qui affectait la version Windows uniquement: si les
+fichiers .opt étaient associés avec Optgeo et ouverts par double-clic
+sur le fichier .opt, la palette flottante n'pparaissait pas.</p><p><span style="text-decoration: underline; font-weight: bold;">-Version 2.21 du 02/12/2013</span></p>
+- Correction d'un bug: modification des longueurs d'onde non pris en
+compte dans le menu "options", "indice du milieu ambiant et longueurs
+d'onde"; et non enregistrées avec la simulation.<p></p><p><span style="text-decoration: underline; font-weight: bold;">-Version 2.20 du 30/11/2013</span></p>
+- Ajout de l'objet réseau diffractant<br><p><big><small>- modif du&nbsp;</small></big> répertoire d'accueil des simulations pour qu'il ne soit pas caché par défaut sous linux et OSX:<br></p><pre wrap=""><i class="moz-txt-slash"><span class="moz-txt-tag">/</span>home<span class="moz-txt-tag">/</span></i>${USER}/MesSimulations sous linux<br>Mes Documents\MesSimulations sous windows <br>/Users/user/MesSimulations sous Mac OSX</pre><p>- compilable avec Lazarus 1.0</p><p>- correction du bug de refus d'ouverture ou de sauvegarde depuis un dossier comportant des caractères accentués<span style="text-decoration: underline; font-weight: bold;"></span></p><p><span style="text-decoration: underline; font-weight: bold;">-Version 2.15 du 24/11/2012</span></p>
+- La version anglaise de l'interface est désormais &nbsp;achevée: un grand merci à Robert Steed pour son travail !<p><span style="text-decoration: underline; font-weight: bold;">-Version 2.14 du 20/11/2012</span></p>
+- Correction d'un bug: lorsque les indices du milieu ambiant étaient
+modifiés, il n'en était pas tenu compte lors de la sortie des rayons
+des matériaux !<p><span style="text-decoration: underline; font-weight: bold;">-Version 2.13 du 23/08/2012</span></p>
+- Correction d'un bug (le dernier j'espère) pouvant affecter la détection  de la langue du système
+d'exploitation.<br><p><span style="text-decoration: underline; font-weight: bold;">-Version 2.12 du 11/08/2012</span></p>
+- Correction d'un bug sous linux concernant le changement de langue à
+l'éxécution, et meilleure détection de la langue du système
+d'exploitation (si optgeo traduit dans cette langue).<br>
+- English translation: ~60%<br>
+<p><span style="text-decoration: underline; font-weight: bold;">-Version 2.11 du 01/01/2012</span></p>
+- Modification des répertoires:<br>&nbsp;&nbsp;&nbsp; le répertoire de configuration d'optgeo est maintenant &nbsp;:<pre wrap=""><i class="moz-txt-slash"><span class="moz-txt-tag">/</span>home<span class="moz-txt-tag">/</span></i>${USER}/.config/optgeo sous linux<br>%appdata%\optgeo sous windows<br>/Users/user/.config/optgeo sous Mac OSX<br><br>- Démarrage sous la langue du système d'exploitation (à condition que optgeo soit traduit dans cette langue).</pre><p><span style="text-decoration: underline; font-weight: bold;">-Version 2.10 du 19/10/2011</span></p>-
+Correction de plusieurs bugs importants dans l'objet polycercle:
+changements intempestifs de forme en cours de déplacement,
+intersections impossibles acceptées à la construction, mauvaise
+détermination de l'indice.<p><span style="text-decoration: underline; font-weight: bold;">-Version 2.05 du 05/10/2011</span></p>-
+Modification de l'objet "polycercle" pour qu'il accepte de n'avoir que
+deux points, afin de créer des lentilles plan-convexe proprement.<br>- &nbsp;Correction bug: l'extension .opt n'était plus rajoutée lors de la sauvegarde.<p><span style="text-decoration: underline; font-weight: bold;">-Version 2.04 du 13/02/2011</span></p>-
+Ajout de la possibilité de superposer plusieurs simulations; pour la
+dernière chargée, une création de groupe se fait automatiquement.<br>- Ajout d'un bouton "grouper tout"<p><span style="text-decoration: underline; font-weight: bold;">-Version 2.03 du 02/11/2010</span></p>- Ajout de la possibilité la simulation au format vectoriel PostScript (fichier .ps).<p><span style="text-decoration: underline; font-weight: bold;">-Version 2.02 du 02/10/2010</span></p>- Correction d'un bug d'affichage dans la fenêtre des propriétés de la sphère réfractante. <p><span style="text-decoration: underline; font-weight: bold;">-Version 2.01&nbsp;du 16/07/2010</span></p>- Ajout de la possibilité de changer les indices du milieu "ambiant" (celui dans lequel plnge la simulation)<span style="text-decoration: underline; font-weight: bold;"></span><p><span style="text-decoration: underline; font-weight: bold;">-Version 2.00 bêta 4 du 08/05/2010</span></p>- Correction d'un bug bloquant dans l'affichage des angles débordant de l'espace de travail<br>- Correction d'un bug de calcul des rayons en présence de prismes et d'autres surfaces réfractantes en recouvrement<br>- Correction d'un bug empêchant l'ouverture de fichiers dont le nom contient des caractères accentués dans la version Windows.<p><br><span style="text-decoration: underline; font-weight: bold;">-Version 2.00 bêta 3 du 12/03/2010</span></p>-Version prête pour l'internationalisation: menu Options, Langue.<br>- Pour le moment, &nbsp;il n'y a qu'un début de traduction en anglais.<br>-
+Je cherche des volontaires pour la traduction. Pour traduire, c'est
+très facile; par exemple pour l'espagnol (es), il faut compléter dans
+le fichier optgeo.es.po qui est dans le repertoire \lang toutes les
+lignes contenant msgstr " &nbsp;". Pas besoin de recompiler Optgeo.
+Pour traduire l'aide, il faut traduire les fichiers html qui sont dans
+le sous-repertoire du repertoire aide (par exemple \aide\es pour
+l'espagnol.<p><span style="text-decoration: underline; font-weight: bold;">-Version 2.00 bêta 2 du 10/02/2010</span></p>-Modification version Linux uniquement: résolution du problème de lenteur de déplacement des objets sous Linux/GTK2.<p></p><p><span style="text-decoration: underline; font-weight: bold;">-Version 2.00 bêta 1 du 08/02/2010</span></p><p>-1ère version écrite en Lazarus<span style="text-decoration: underline;"><span style="font-weight: bold;"></span></span></p><p>- ajout d'un objet "prisme" (avec en particulier rotation autour du centre d'inertie)</p><p>-lors de la sélection d'un point correspondant à plusieurs points possibles, le programme propose de choisir&nbsp;</p><p>- modification de l'interface: regroupement des boutons sur une palette</p><p>-correction de bugs dans les polycercles</p><p>- les fichiers .rtf de commentaires sont remplacés par des fichiers .txt moins riches mais multi plateforme</p><p>- les fichiers .opt et .txt sont encodés en UTF-8 afin d'être multi plateforme</p><p>- &nbsp;amélioration de l'impression</p><p>- possibilité d'exporter la simulation en PNG et JPG</p><p>- possibilité de limiter le nombre de segments pour chaque rayon lumineux</p><p>-
+Attention: ceci est une version bêta; en raison du travail de
+réécriture très important, il y a surement des bugs résiduels, merci de
+me les signaler.<span style="text-decoration: underline;"><span style="font-weight: bold;"></span></span></p><p style="text-decoration: line-through;"><span style="text-decoration: underline; font-weight: bold;">- Version 1.32 du 03/01/2010: </span>permet
+de limiter le nombre maximal de segments que peut avoir un rayon
+lumineux; le choix se fait sur la fenêtre de création de la simulation;
+permet d'avoir la cardioïde qu'on voit au fond d'une tasse ou d'une
+casserolle (exemple rajouté dans "exemples classiques"); augmentation
+du nombre maximal de rayons lumineux par source (ponctuelle ou plane) à
+500</p><p><span style="text-decoration: underline; font-weight: bold;">- Version 1.31 du 16/02/2009:&nbsp;</span>amélioration du tracé des miroirs coniques en cas de zoom</p><p><span style="text-decoration: underline; font-weight: bold;">- Version 1.30 du 14/11/2008: </span>possibilité d'afficher les coordonnées des extrémités des segments</p><p><span style="text-decoration: underline; font-weight: bold;">-Linux uniquement: version 1.27 du 01/01/2008: </span>possibilité d'ouvrir une simulation depuis la ligne de commande</p><p><span style="text-decoration: underline; font-weight: bold;">-Linux
+uniquement: version 1.26 du 20/03/2005: </span>ajout d'une fonction
+d'exportation du graphe aux formats PNG, JPEG et BMP; et la
+copier-coller devrait théoriquement mieux fonctionner...<br>
+</p>
+<p><span style="text-decoration: underline; font-weight: bold;">-
+Version 1.25 du 28/10/2004</span>: OptGeo passe au<span style="font-weight: bold; text-decoration: underline;"> libre</span> !
+Il est désormais disponible sous license <a href="telechargement/gpl.html">GNU GPL</a>. Les sources sont
+disponibles, et modifiables sous les termes de la license GNU GPL.<br>
+</p>
+<p>- <span style="text-decoration: underline;">Linux uniquement:
+version 1.24.1 du 16/10/2004</span>: correction d'un bug qui lors du
+premier lancement de Optgeo signalait l'inexistence du repertoire
+/home/moimoi (résidu malheureux d'un essai...)<br>
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.24 du
+06/10/2004</span>: ajout d'un menu permettant d'ouvrir depuis le
+dernier répertoire utilisé; correction d'un bug pouvant
+survenir fugitivement lors de la suppression d'un miroir cônique;
+correction d'un bug sur l'affichage des angles de réfraction.<br>
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.23 du
+01/10/2004</span>: corrige un autre bug de tracé des
+polyhèdres qui pouvait donner une erreur "division par
+zéro"; ajoute de la prise en compte des modifications
+d'empennage et de couleur de fond dans la fonction
+Annuler/Rétablir; correction d'un bug de modification de police
+quand on modifie un texte; correction du bug de disparition de
+commentaire en cas d'utilisation de la fonction Annuler/Rétablir.<br>
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.22 du
+26/09/2004</span>: corrige un bug de tracé avec les
+polyhèdres (rayons réfléchis pas toujours
+affichés).
+</p>
+<p style="text-align: justify;">- <span style="text-decoration: underline;">Version 1.21 du
+21/09/2004</span>: amélioration de la fonction d'annulation;
+correction d'un bug dans l'affichage du répertoire des boites
+dialogues d'ouverture de fichier; ajout de la possibilité de
+modifier le répertoire perso de simulation; pour la version
+Linux, le niveau d'annulation passe bien à 50 (il était
+bêtement à 4 dans la version 1.20).<br>
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.20 du
+17/09/2004:</span> ajout d'une fonction
+d'annulation/rétablissement à 50 niveaux.<br>
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.10 du
+22/10/2003
+</span><br>
+<br>
+</p>
+<div style="margin-bottom: 0cm;"></div>
+<p style="margin-bottom: 0cm;">- possibilité d'aligner les
+points
+sur une même verticale verticale ou horizontale avec les touches
+Alt et Ctrl (documenté dans l'aide)
+</p>
+<p style="margin-bottom: 0cm;">- possibilité redimensionner
+l'espace
+de travail en cours de simulation
+</p>
+<p style="margin-bottom: 0cm;">- possibilité de configurer les
+répertoires
+de simulation
+</p>
+<p style="margin-bottom: 0cm;">- possibilité de changer la
+couleur
+de fond de la simulation
+</p>
+<p style="margin-bottom: 0cm;">- on peut désormais fixer la
+position
+et la taille de l'empennage des rayons
+</p>
+<p style="margin-bottom: 0cm;">- les attributs par défaut des
+éléments
+peuvent être réglés, et cette configuration peut
+être
+enregistré sur disque
+</p>
+<p style="margin-bottom: 0cm;">Merci au collègue (il se
+reconnaîtra)
+qui m'a suggéré toutes ces améliorations !
+<br>
+&nbsp;
+</p>
+<div style="margin-bottom: 0cm;"></div>
+&nbsp;
+<p style="margin-bottom: 0cm;">- <span style="text-decoration: underline;">Version 1.05 du 17/05/2003</span>:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- ajout de la possibilité de grouper des éléments
+pour pouvoir les translater ensemble
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- possibilité d'associer les fichiers .opt à OptGeo pour
+pouvoir les ouvrir directement par double-clic
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- correction d'un bug qui empêchait les sauvegardes des objets
+"mesures
+de distance"
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.04 du
+02/05/2003</span>:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- ajout d'un objet "oeil stylisé"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- le déinstalleur automatique remarche !
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.03</span>:
+ajout d'un objet "trait" qui permet de rajouter
+trait,
+fléche,... sur la simulation (objet inerte du point de vue
+optique);
+ajout d'une <u>liste de matériau</u> pour les régions
+réfractantes,
+qui évite la saisie des indices à la main (mais c'est
+toujours
+possible bien-sûr); la fenêtre des commentaires reste
+réduite
+à l'ouverture d'une simulation si le commentaire est vide;
+affichage
+du nom de la simulation dans le bandeau de la fenêtre du
+logiciel.;
+correction d'un bug qui empêchait la visualisation des bords des
+lentilles épaisses en cours de construction;
+<u>ajout de nombreux
+exemples</u> rangés par catégories.
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.02</span>:
+rajoute la possibilité de translater l'objet
+"mesure de distance", et l'interface subit des améliorations
+cosmétiques
+mineures.
+</p>
+<p>- <span style="text-decoration: underline;">Version 1.01</span>:
+corrige quelques bugs dans les boutons de
+l'interface,
+et améliore un peu l'ergonomie du logiciel.
+<br>
+</p>
+<hr size="8">
+<p><a name="compa"></a><u><font color="#009900"><font size="+1">Compatibilité
+des fichiers de simulation (.opt)</font></font></u>
+</p>
+<p>- Les dernières versions de Optgeo utilisent l'encodage en UTF8. Il
+se peut que de vieux fichiers .doz encodés en ANSI ne puissent être
+relus par Optgeo.</p><p>- Solution dans ce cas: ouvrir le fichier .doz
+avec Notepad++, convertir en "UTF8 sans BOM", sauver; le fichier
+devrait ensuite être lisible.</p><hr size="8">
+<p><a name="desin"></a><u><font color="#3333ff"><font size="+1">Désinstallation
+des versions Windows</font></font></u>
+</p>
+<p style="text-align: justify;"><u><font color="#3333ff"><font size="+1">Versions
+postérieures à la 1.10</font></font></u>&nbsp; La
+désinstallation par Ajout/Suppression de programmes ne supprime
+pas le répertoire d'installation d'OptGeo; si on installe une
+nouvelle version dans le même répertoire, la configuration
+d'OptGeo sera conservée. Si on veut repartir de zéro,
+supprimer le répertoire d'installation.<br>
+</p>
+<p style="text-align: justify;"><u><font color="#3333ff"><font size="+1">Versions
+antérieures à la 1.04</font></font></u>Suite à un
+bug d'InstallShield, les versions
+antérieures
+à la 1.04 ne peuvent pas être désinstallées
+en passant par Panneau de configuration, Ajout/Suppression de
+programmes.
+Pour désinstaller ces versions, procéder de la
+façon
+suivante:
+<br>
+- supprimer le répertoire d'installation d'OptGeo (en
+général:
+c:\Program Files\OptGeo, à vérifier); attention si vous y
+avez sauvegardé des fichiers .opt, mettez les ailleurs avant !
+<br>
+- supprimer le raccourci dans le menu Démarrer: pour cela, aller
+dans le menu Démarrer, OptGeo, clic droit, Supprimer.
+</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Le problème ne se pose plus
+à partir de la 1.04.
+<br>
+</p>
+<hr size="8">
+<p><a name="reseau"></a><u><font color="#993399"><font size="+1">Installation
+réseau (modifié le 21/09/2004)</font></font></u>
+</p>
+<p style="text-align: justify;">Si vous êtes en réseau,
+avec un serveur, il est inutile
+de faire l'install sur tous les postes. Faites l'install à
+partir
+d'une station, sur un lecteur réseau mappé sur un
+répertoire
+du serveur (exemple: académie de Toulouse, réseau
+d'établissement
+sous Magret, faire l'install dans j:\optgeo où j: est
+associé
+à Winappli du serveur).Lancer un première fois Optgeo; il
+demande le répertoire des exemples: on peut laisser celui
+proposé (j:\optgeo\exemples), ce qui évitera que les
+élèves les modifient; il demande aussi un
+répertoire de configuration personnelle, qui doit être accessible en lecture, et un répertoire
+de simulation personnelles: lui mettre par exemple p:\travail\monoptgeo.</p>
+<p style="text-align: justify;"> Il suffit ensuite d'avoir sur chaque
+station
+un raccourci vers le optgeo.exe (avec Magret, mettre le raccourci dans
+le modèle souhaité).
+<br>
+</p>
+<hr size="8"><br>
+&nbsp;
+<br>
+&nbsp;
+<br>
+&nbsp;
+</body></html>

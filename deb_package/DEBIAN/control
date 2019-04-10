@@ -1,0 +1,14 @@
+Package: optgeo-i18n
+Version: 2.25
+Installed-Size: 11448
+Maintainer: Jean Marie <jeanmarie.biansan@free.fr>
+Section: science
+Architecture: all
+Priority: optional
+Conflicts: optgeo
+Homepage: http://jeanmarie.biansan.free.fr/optgeo.html
+Description: Ferramenta interativa para estudar e simular montagens ópticas.
+ O optgeo é um programa para traçar o movimento dos raios através de um equipamento óptico. Muitas peças, como lentes, espelhos, espelhos curvos podem ser montadas.
+ English:
+ Interactive tool to study and simulate optic assemblies.
+ Optgeo is a program to plot the movement of rays through an optic equipment. Many pieces, like lenses, mirrors, curved mirrors can be assembled.

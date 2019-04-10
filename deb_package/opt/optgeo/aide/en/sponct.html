@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.0  (Win32)">
+	<META NAME="CREATED" CONTENT="20031122;10593068">
+	<META NAME="CHANGED" CONTENT="20031122;11004369">
+</HEAD>
+<BODY LANG="fr-FR" BACKGROUND="optgeo.gif" DIR="LTR">
+<P STYLE="margin-bottom: 0cm"><B><U><FONT SIZE=2><FONT COLOR="#000099">Source
+ponctuelle </FONT></FONT>(r&eacute;elle ou virtuelle)</U></B></P>
+<HR SIZE=1>
+<P STYLE="margin-bottom: 0cm"><IMG SRC="sponctgrand.gif" NAME="Image1" ALIGN=BOTTOM WIDTH=100 HEIGHT=100 BORDER=0>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ou
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; 
+<IMG SRC="sponctvgrand.gif" NAME="Image2" ALIGN=BOTTOM WIDTH=100 HEIGHT=100 BORDER=0>
+&nbsp; &nbsp; 
+</P>
+<HR SIZE=1>
+<P STYLE="margin-bottom: 0cm"><BR><B><U><FONT SIZE=1><FONT COLOR="#cc0000">D&eacute;finition</FONT></FONT></U></B><BR><BR>Elle
+est d&eacute;finie par les points S, 1 et 2, et par le nombre de
+rayons lumineux composant le faisceau.L'ordre des points 1 et 2 n'est
+pas indiff&eacute;rent: les rayons sont &eacute;mis entre S-1 et S-2
+dans le sens trigo direct.<BR><BR>La source peut &ecirc;tre
+ajout&eacute;e:<BR>- en cliquant sur le bouton de la barre d'outil
+ayant la forme ci-dessus, puis en faisant un clic simple pour saisir
+le point source S, puis en faisant un clic simple pour saisir le
+point 1, puis en faisant un clic simple pour saisir le point 2 (ne
+pas maintenir le bouton de la souris enfonc&eacute; entre les deux
+points); et enfin en donnant dans la boite de saisie qui s'ouvre
+alors, le nombre de rayons composant le faisceau.<BR>OU<BR>- menu
+&quot;Ajouter&quot; puis &quot;Source&quot; puis &quot;Objet ponctuel
+r&eacute;el ou virtuel&quot;.</P>
+<HR SIZE=1>
+<P><BR><B><U><FONT SIZE=1><FONT COLOR="#33ff33">Options</FONT></FONT></U></B><BR><BR>On
+peut imposer <BR>-l'&eacute;paisseur du trait repr&eacute;sentant les
+rayons &agrave; l'&eacute;cran<BR><BR>- la couleur des rayons; <U><I>ce
+n'est pas simplement la couleur repr&eacute;sent&eacute;e &agrave;
+l'&eacute;cran, mais aussi la couleur qui d&eacute;termine l'indice
+de r&eacute;fraction pour les milieux r&eacute;fractants dispersifs;
+un rayon de lumi&egrave;re blanche est compos&eacute; de trois rayons
+rouge, vert et bleu.</I></U><BR><BR><U><I>- le nombre maximal de
+rayons enfants; lorsque le rayon arrive sur un dioptre, il donne en
+g&eacute;n&eacute;ral naissance &agrave; un rayon r&eacute;fl&eacute;chi
+et &agrave; un rayon transmis; le rayon r&eacute;fl&eacute;chi est
+appel&eacute; ici &quot;rayon enfant&quot; (sauf dans le cas de la
+<A HREF="lsr.html">lame semi-r&eacute;fl&eacute;chissante id&eacute;ale</A>);
+par d&eacute;faut, le nombre maximal d'enfants est de 10. Remarque:
+un enfant peut avoir lui aussi des enfants, mais son nombre maximal
+d'enfant est celui de son rayon parent diminu&eacute; de 1.</I></U>
+Le nomre de rayons enfant s'applique &agrave; chacun des rayons
+composant le faisceau.<BR><BR>- le fait qu'il existe ou pas un rayon
+r&eacute;fl&eacute;chi en plus du rayon r&eacute;fract&eacute; est
+une propri&eacute;t&eacute; de chaque &eacute;l&eacute;ment
+r&eacute;fractant<BR><BR>- si il n'y a pas de r&eacute;fraction
+(angle d'indicence plus grand que l'angle limite), le rayon r&eacute;fl&eacute;chi
+est un rayon simple, pas un enfant<BR><BR><BR><BR>- <U><I>on peut
+demander &agrave; ce que les prolongements des diff&eacute;rents
+segments qui composent le trajet d'un rayon soient trac&eacute;s en
+pointill&eacute;s</I></U>, vers l'avant ou vers l'arri&egrave;re, et
+ce pour chacun de rayons qui composent le faisceau; il suffit de
+pr&eacute;ciser la liste des segments concern&eacute;s (segments
+num&eacute;rot&eacute;s dans l'ordre de propagation du rayon); ainsi,
+si le cheminement du rayon est le suivant:<BR><IMG SRC="segment1.gif" NAME="Image3" ALIGN=BOTTOM WIDTH=599 HEIGHT=149 BORDER=0>
+<BR>et qu'on demande le prolongement (1,2,4) vers l'avant et (3,4)
+vers l'arri&egrave;re, <BR>alors on obtient:<BR><IMG SRC="segment2.gif" NAME="Image4" ALIGN=BOTTOM WIDTH=674 HEIGHT=274 BORDER=0>
+<BR><BR><BR><BR>- Trac&eacute; des surfaces d'onde: dans le cas d'une
+source r&eacute;elle, on peut demander le trac&eacute; de surfaces
+d'onde; il suffit d'indiquer la valeur du chemin optique pour lequel
+on veut effectuer le trac&eacute;. Cela ne rel&eacute;ve pas vraiment
+de l'optique g&eacute;om&eacute;trique, mais on ne paye pas plus
+cher...<BR>A noter que pour que le trac&eacute; soit pris en compte,
+la simulation ne doit comporter ni miroir sph&eacute;rique paraxial,
+ni lentille mince paraxiale; ces &eacute;l&eacute;ments sont en effet
+des id&eacute;alisations, sch&eacute;matis&eacute;es par des surfaces
+planes alors qu'ils sont en r&eacute;alit&eacute; sph&eacute;riques,
+et on ne peut pas calculer les chemins optiques correctement dans ce
+cas. Mais rien n'emp&ecirc;che d'utiliser miroir sph&eacute;rique
+r&eacute;el et lentille r&eacute;elle...<BR><BR><BR><BR>Ces
+propri&eacute;t&eacute;s peuvent &ecirc;tre rendues accessibles:<BR>-
+&agrave; la construction du rayon si on passe par le menu &quot;Ajouter&quot;<BR>-
+&agrave; tout instant en cliquant sur le bouton &quot;Propri&eacute;t&eacute;s&quot;
+de la barre d'outil, puis en cliquant sur un des cercles bleus qui
+apparaissent sur l'&eacute;l&eacute;ment dont on veut obtenir les
+propri&eacute;t&eacute;s; ne pas oublier &agrave; la fin de cliquer
+sur le bouton &quot;Fin prop.&quot; de la barre d'outil pour quitter
+le mode propri&eacute;t&eacute;s.</P>
+<HR SIZE=1>
+<P><A HREF="Optgeo.html">Retour &agrave; la page &nbsp;d'accueil</A><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+</P>
+</BODY>
+</HTML>
