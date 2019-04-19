@@ -9,4 +9,4 @@ Versão: 2.25
 
 Conflicts: optgeo
 
-[Baixe o pacote Debian aqui!](https://drive.google.com/open?id=1qRAOpUfNCXr438gIl-pQK-W_NY3-4XQ9)
+[Baixe o pacote Debian aqui!](https://drive.google.com/open?id=1SINCFoD9rLWdCIp__wKDvPtNk4mAf-dT)

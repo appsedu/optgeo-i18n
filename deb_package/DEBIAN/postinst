@@ -3,14 +3,16 @@
 cat /etc/passwd | grep '/home/' | \
 grep -v 'cups\|syslog' | cut -d ':' -f 1 > /tmp/homes.list
 
-# mkdir /tmp/patched-physion/ -p
-# cd /tmp/patched-physion/
-# p7zip -f -k -d /tmp/physion-wine.7z
-# cd -
-# chmod 777 -R /tmp/patched-physion/
-
 while read USUARIO; do
 	runuser -l $USUARIO -c "mkdir -p /home/$USUARIO/.config/optgeo/"
  	runuser -l $USUARIO -c "cp /tmp/optgeo.ini /home/$USUARIO/.config/optgeo/"
- 	chmod 777 -R /home/$USUARIO/.config/optgeo/
+ 	#chmod 777 -R /home/$USUARIO/.config/optgeo/
+ 	runuser -l $USUARIO -c "mkdir -p /home/$USUARIO/.config/menus/applications-merged/"
+ 	runuser -l $USUARIO -c "cp /tmp/optgeo.menu /home/$USUARIO/.config/menus/applications-merged/"
+ 	runuser -l $USUARIO -c \
+	"cp -rf /tmp/education-Physics.directory /home/$USUARIO/.local/share/desktop-directories/"
+	runuser -l $USUARIO -c \
+	"cp -rf /tmp/optgeo-i18n.desktop /home/$USUARIO/.local/share/applications/"
+	runuser -l $USUARIO -c "rm -rf /home/$USUARIO/.cache/"
+	su - $USUARIO -c "lxpanelctl restart"
 done < /tmp/homes.list
