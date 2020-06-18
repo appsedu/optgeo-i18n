@@ -27,9 +27,10 @@ while read USUARIO; do
 	runuser -l $USUARIO -c \
 	"cp -rf /tmp/optgeo-i18n.desktop /home/$USUARIO/.local/share/applications/"
 
-	geraShort /tmp/optgeo-i18n.desktop \
-	/home/$USUARIO/.local/share/applications/optgeo-i18n.desktop \
-	> /home/$USUARIO/Desktop/optgeo-i18n.desktop
+	# geraShort /tmp/optgeo-i18n.desktop \
+	# /home/$USUARIO/.local/share/applications/optgeo-i18n.desktop \
+	# > /home/$USUARIO/Desktop/optgeo-i18n.desktop
+	cp /home/$USUARIO/.local/share/applications/optgeo-i18n.desktop /home/$USUARIO/Desktop/optgeo-i18n.desktop
 
 	runuser -l $USUARIO -c "rm -rf /home/$USUARIO/.cache/"
 	if [ -f /usr/bin/lxpanelctl ]; then
