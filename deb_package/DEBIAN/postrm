@@ -5,7 +5,5 @@ grep -v 'cups\|syslog' | cut -d ':' -f 6 > /tmp/homes.list
 
 while read BASEDIR; do
     rm -rf "$BASEDIR/.config/optgeo/"
-    rm -rf "$BASEDIR/.local/share/applications/optgeo-i18n.desktop"
-    rm -rf "$BASEDIR/.config/menus/applications-merged/optgeo.menu"
     rm -rf "$BASEDIR/Desktop/optgeo-i18n.desktop"
 done < /tmp/homes.list
